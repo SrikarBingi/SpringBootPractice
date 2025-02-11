@@ -15,7 +15,7 @@ public class LogDemo {
         //insert a record in db
         //make an api call
         logger.info("information is printed");
-        logger.warn("warning is printed");
+        logger.warn("warning is printed ");
         logger.error("error is printed");
         logger.trace("trace is printed");
     }
