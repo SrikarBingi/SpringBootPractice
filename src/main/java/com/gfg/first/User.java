@@ -14,6 +14,6 @@ public class User {
     }
     @PostConstruct
     public void init(){
-        System.out.println("User hashcode :"+this.hashCode());
+        System.out.println("  User hashcode :"+this.hashCode());
     }
 }
