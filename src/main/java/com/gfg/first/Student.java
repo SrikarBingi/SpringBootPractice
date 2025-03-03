@@ -18,6 +18,6 @@ public class Student {
 
     @PostConstruct
     public void init(){
-        System.out.println("Student hashcode :"+this.hashCode());
+        System.out.println("Student hashcode :"+this.hashCode()+" "+" user hashcoe :"+user.hashCode());
     }
 }
