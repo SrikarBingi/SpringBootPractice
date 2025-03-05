@@ -24,12 +24,12 @@ public class Controller1 {
     User user;
 
     public Controller1(){
-        System.out.println("Controller1 Initialized");
+        System.out.println(" Controller1 Initialized");
     }
 
     @PostConstruct
     public void init(){
-        System.out.println("contoller1 hashcode :"+this.hashCode()+" User hashcode :"+user.hashCode());
+        System.out.println(" contoller1 hashcode :"+this.hashCode()+" User hashcode :"+user.hashCode());
     }
 
     @GetMapping(path="/fetchUser")

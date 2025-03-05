@@ -13,11 +13,11 @@ public class Student {
     User user;
 
     public Student(){
-        System.out.println("Student Initialized");
+        System.out.println(" Student Initialized");
     }
 
     @PostConstruct
     public void init(){
-        System.out.println("Student hashcode : "+this.hashCode()+" "+" user hashcoe : "+user.hashCode());
+        System.out.println(" Student hashcode : "+this.hashCode()+" "+" user hashcoe : "+user.hashCode());
     }
 }
