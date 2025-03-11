@@ -34,7 +34,7 @@ public class Controller1 {
 
     @GetMapping(path="/fetchUser")
     public ResponseEntity<String> getUserDetails(){
-        System.out.println("fetch api invoked");
+        System.out.println(" fetch api invoked ");
         return ResponseEntity.status(HttpStatus.OK).body("");
     }
 
