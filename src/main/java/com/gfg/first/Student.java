@@ -13,7 +13,7 @@ public class Student {
     User user;
 
     public Student(){
-        System.out.println(" Student Initialized");
+        System.out.println(" Student Initialized ");
     }
 
     @PostConstruct

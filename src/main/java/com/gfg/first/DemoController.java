@@ -14,6 +14,6 @@ public class DemoController {
 
     @GetMapping("/Dummy")
     public String dummyCall(){
-        return "DummyCall";
+        return " DummyCall ";
     }
 }

@@ -10,10 +10,10 @@ import jakarta.annotation.PostConstruct;
 @Scope(value="request", proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class User {
     public User(){
-        System.out.println(" User intialized");
+        System.out.println("User intialized");
     }
     @PostConstruct
     public void init(){
-        System.out.println("  User hashcode :"+this.hashCode());
+        System.out.println("User hashcode :"+this.hashCode());
     }
 }
