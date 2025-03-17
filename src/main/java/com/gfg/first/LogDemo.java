@@ -18,5 +18,6 @@ public class LogDemo {
         logger.warn("warning   is printed ");
         logger.error("error is printed ");
         logger.trace("trace is printed ");
+        // logger.(inner_expression${})
     }
 }
