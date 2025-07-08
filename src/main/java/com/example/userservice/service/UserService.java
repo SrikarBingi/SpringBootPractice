@@ -17,9 +17,9 @@ public class UserService {
 	List<User> ul = new ArrayList<>();
 
 	public UserService() {
-		ul.add(new User(1,"Vihaan","Hyderabad"));
-		ul.add(new User(2,"Veda Sri","Domakonda"));
-		ul.add(new User(3,"Srikar","Dubbak"));
+		ul.add(new User(1,"Vihaan","Hyderabad "));
+		ul.add(new User(2,"Veda Sri","Domakonda "));
+		ul.add(new User(3,"Srikar","Dubbak "));
 	}
 	
 	public List<User> getUsers(){		
